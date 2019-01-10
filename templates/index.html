@@ -3,16 +3,16 @@
 {% block body %}
 
 <div class="jumbotron text-center">
-        <h3>Yazılım Bilimi Bloğuna Hoşgeldiniz</h3>
-        <p>Bu blogta geliştiriciler olarak blog yazılarınızı paylaşabilirsiniz ve insanlara yardımcı olabilirsiniz.</p>
+        <h3>Welcome to the Stylumia Blog</h3>
+        <p>In this blog you can share your blog posts as developers and help people.</p>
 </div>
 
 
 <p>
         {% if request.user.is_authenticated %}
-                Giriş Yapılmış, {{request.user.username}}
+                Thanks for Logging in, {{request.user.username}}
         {% else %}
-                Giriş Yapılmamış
+                You can view the article without logging, To write a article please signin/register.
         {% endif %}
 
 </p>

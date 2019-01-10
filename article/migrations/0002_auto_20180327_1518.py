@@ -16,12 +16,12 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='article',
             name='article_image',
-            field=models.FileField(blank=True, null=True, upload_to='', verbose_name='Makaleye Resim Ekleyin'),
+            field=models.FileField(blank=True, null=True, upload_to='', verbose_name='Add an image to the article'),
         ),
         migrations.AlterField(
             model_name='article',
             name='author',
-            field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to=settings.AUTH_USER_MODEL, verbose_name='Yazar '),
+            field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to=settings.AUTH_USER_MODEL, verbose_name='Author '),
         ),
         migrations.AlterField(
             model_name='article',
@@ -31,11 +31,11 @@ class Migration(migrations.Migration):
         migrations.AlterField(
             model_name='article',
             name='created_date',
-            field=models.DateTimeField(auto_now_add=True, verbose_name='Oluşturulma Tarihi'),
+            field=models.DateTimeField(auto_now_add=True, verbose_name='Date Created'),
         ),
         migrations.AlterField(
             model_name='article',
             name='title',
-            field=models.CharField(max_length=50, verbose_name='Başlık'),
+            field=models.CharField(max_length=50, verbose_name='Title'),
         ),
     ]

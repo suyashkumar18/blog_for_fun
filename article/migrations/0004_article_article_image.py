@@ -13,6 +13,6 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='article',
             name='article_image',
-            field=models.FileField(blank=True, null=True, upload_to='', verbose_name='Makaleye Fotoğraf Ekleyin'),
+            field=models.FileField(blank=True, null=True, upload_to='', verbose_name='Add Picture to Article'),
         ),
     ]
