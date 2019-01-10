@@ -1,5 +1,4 @@
 <<<<<<< HEAD
-<<<<<<< HEAD
 
 
 Clone This Project (Make Sure You Have Git Installed)
@@ -29,6 +28,3 @@ After all these steps , you can start testing and developing this project.
 # stylumia_blog
 A blog is created using Django 
 >>>>>>> b62efe2c1547fa0c8e4f69a32d5474a923997b07
-=======
-# stylumia_blog
->>>>>>> e519eea216c4b820bc35b3f23edccfd33f3d4a22
